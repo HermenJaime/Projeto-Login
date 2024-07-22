@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+
+            <div id="img"></div>
+
+            <div id="form">
+                <h1>ZOOTech</h1>
+                <p>Seja bem vindo(a). Faço login para acessar a plataforma.</p>
+
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="ilogin">Login: </label>
+                        <input type="email" name="ilogin" maxlength="30" autocomplete="email" placeholder="Digite sua email"><span class="material-symbols-outlined">person</span><br>
+                    </div>
+
+                    <div class="campo">
+                        <label for="isenha">Senha: </label>
+                        <input type="password" name="isenha" autocomplete="current-password" minlength="8" maxlength="20" placeholder="Digite sua senha"><span class="material-symbols-outlined">vpn_key</span><br>
+                    </div>
+
+                    <input type="submit" value="Entrar">
+
+                    <div id="esq_senha">
+                        <a href="#">Esqueceu a senha? <span class="material-symbols-outlined">mail</span></a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
