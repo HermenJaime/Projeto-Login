@@ -57,8 +57,15 @@ form .campo{
 form > .campo input{
     width: 70%;
     height: 30px;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px solid black;
+    transition-duration: 0.4s;
 }
-
+form input:focus{
+    background-color: rgba(211, 211, 211, 0.271);
+    outline: none;
+}
 /*Configurações do botão entrar e esqueci senha*/
 form > input[type=submit]{
     margin-top: 20px;
